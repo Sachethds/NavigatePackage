@@ -7,15 +7,15 @@
 
 import UIKit
 
-class SecondVC: UIViewController {
+public class SecondVC: UIViewController {
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
 
     }
     
 
-    @IBAction func btnTouched(_ sender: UIButton) {
+    @IBAction public func btnTouched(_ sender: UIButton) {
         let sb = UIStoryboard(name: "Sample", bundle: Bundle.module)
         let vc = sb.instantiateViewController(identifier: "ThirdVC" )
         self.navigationController?.pushViewController(vc, animated: true)
