@@ -15,7 +15,7 @@ class FirstVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func btnTouched(_ sender: Any) {
+    @IBAction func btnTouched(_ sender: UIButton) {
         let sb = UIStoryboard(name: "Sample", bundle: nil)
         let vc = sb.instantiateViewController(identifier: "SecondVC" )
         self.navigationController?.pushViewController(vc, animated: true)
