@@ -45,7 +45,7 @@
         <!--SecondVC-->
         <scene sceneID="4Ty-l4-arW">
             <objects>
-                <viewController restorationIdentifier="SecondVC" storyboardIdentifier="SecondVC" id="8R0-jf-DMd" customClass="SecondVC" customModule="PracticePackage" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecondVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8R0-jf-DMd" customClass="SecondVC" customModule="PracticePackage" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tjc-Ws-urg">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -78,7 +78,7 @@
         <!--ThirdVC-->
         <scene sceneID="OH7-WJ-IQV">
             <objects>
-                <viewController restorationIdentifier="ThirdVC" storyboardIdentifier="ThirdVC" id="7U2-ps-6Hm" customClass="ThirdVC" customModule="PracticePackage" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ThirdVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7U2-ps-6Hm" customClass="ThirdVC" customModule="PracticePackage" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="M9g-5K-Y1o">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
