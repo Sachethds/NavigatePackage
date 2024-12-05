@@ -20,7 +20,7 @@ let package = Package(
         .target(
             name: "NavigatePackage",
             path: "NavigatePackage",
-            sources: ["Sources/NavigatePackage" , "PracticePackage/FirstVC.swift",
+            sources: ["Sources/NavigatePackage/NavigatePackage.swift" , "PracticePackage/FirstVC.swift",
                       "PracticePackage/SecondVC.swift",
                       "PracticePackage/ThirdVC.swift"],
             resources: [
