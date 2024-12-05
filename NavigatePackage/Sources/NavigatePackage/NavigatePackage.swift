@@ -5,9 +5,9 @@ import Foundation
 import UIKit
 
 public extension UIViewController{
-    func transition(){
+    func navigateToPackage(){
         let sb = UIStoryboard(name: "Sample", bundle: Bundle.module)
-        let vc = sb.instantiateViewController(withIdentifier: "SampleViewController")
+        let vc = sb.instantiateViewController(withIdentifier: "FirstVC")
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
