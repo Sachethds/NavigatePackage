@@ -11,7 +11,7 @@
         <!--FirstVC-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="FirstVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="FirstVC" customModule="PracticePackage" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FirstVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="FirstVC" customModule="NavigatePackage.PracticePackage" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -25,7 +25,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="FirstVC"/>
                                 <connections>
-                                    <action selector="btnTouched:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="zRH-F6-TAu"/>
+                                    <action selector="btnTouched:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="dm1-Om-krg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -45,7 +45,7 @@
         <!--SecondVC-->
         <scene sceneID="4Ty-l4-arW">
             <objects>
-                <viewController storyboardIdentifier="SecondVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8R0-jf-DMd" customClass="SecondVC" customModule="PracticePackage" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecondVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8R0-jf-DMd" customClass="SecondVC" customModule="NavigatePackage.PracticePackage" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tjc-Ws-urg">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -78,7 +78,7 @@
         <!--ThirdVC-->
         <scene sceneID="OH7-WJ-IQV">
             <objects>
-                <viewController storyboardIdentifier="ThirdVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7U2-ps-6Hm" customClass="ThirdVC" customModule="PracticePackage" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ThirdVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7U2-ps-6Hm" customClass="ThirdVC" customModule="NavigatePackage.PracticePackage" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="M9g-5K-Y1o">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
